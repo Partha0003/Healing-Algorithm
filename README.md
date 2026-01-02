@@ -8,12 +8,12 @@ This solution implements an automated 3D semantic segmentation pipeline for brai
 ### 1. Multi-Planar Orthogonal View
 We visualize the tumor from three standard medical perspectives (Axial, Coronal, Sagittal) to confirm 3D spatial consistency. The **AI Prediction (Red)** aligns precisely with the **Ground Truth (Green)** across all planes.
 
-![Orthogonal View Result](images/Multimodal_Result.png)
+![Orthogonal View Result](Images/Multimodal_Result.png)
 
 ### 2. 3D Volumetric Segmentation
 The following animation demonstrates the model's performance across the 3D volume (Slices 50–110). The sliding window inference strategy ensures consistent boundary predictions.
 
-![Volumetric Segmentation Animation](images/Multimodal_Video.gif)
+![Volumetric Segmentation Animation](Images/Multimodal_Video.gif)
 
 ## Model Architecture
 * **Architecture:** SegResNet (Spatial Dimensions: 3)
